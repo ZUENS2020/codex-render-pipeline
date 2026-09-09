@@ -1,0 +1,11 @@
+{
+  "project": {"name": "MyAnimation", "revision": "R1", "root": ".", "blend_file": "scene.blend"},
+  "render": {"frames_dir": "work/frames", "state_file": "work/render-state.json", "manifest_file": "work/manifest.json", "start": 1, "end": 1920, "fps": 60, "width": 2560, "height": 1440, "engine": "CYCLES", "device": "OPTIX", "samples": 64, "denoise": true, "format": "PNG", "color_mode": "RGB", "color_depth": "8", "png_compression": 25},
+  "monitor": {"host": "0.0.0.0", "port": 8767, "dashboard_dir": "plugin:assets/dashboard"},
+  "remote": {"base_url": "http://127.0.0.1:8767", "poll_seconds": 30, "request_timeout_seconds": 90},
+  "delivery": {
+    "frames_dir": "delivery/frames", "state_file": "delivery/delivery-state.json", "output_dir": "delivery/output", "ffmpeg": "ffmpeg", "ffprobe": "ffprobe", "verify_source_hashes": true, "verify_master_pixels": true,
+    "master": {"filename": "MyAnimation_R1_RGB24_Uncompressed.avi", "codec": "rawvideo", "pixel_format": "bgr24"},
+    "variants": [{"filename": "MyAnimation_R1_Wallpaper.mp4", "codec": "libx264", "preset": "slow", "crf": 18, "pixel_format": "yuv420p", "movflags": "+faststart"}]
+  }
+}

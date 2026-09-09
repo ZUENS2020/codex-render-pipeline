@@ -1,0 +1,35 @@
+{
+  "name": "codex-render-pipeline",
+  "version": "0.1.0+codex.20260909100810",
+  "description": "Resumable Blender rendering, verified transfer, lossless master assembly, compression, and live monitoring for Codex.",
+  "author": {
+    "name": "ZUENS2020"
+  },
+  "repository": "https://github.com/ZUENS2020/codex-render-pipeline",
+  "license": "MIT",
+  "keywords": [
+    "blender",
+    "rendering",
+    "video",
+    "monitoring",
+    "ffmpeg"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Render Pipeline",
+    "shortDescription": "Run and monitor verified Blender render delivery.",
+    "longDescription": "A configurable pipeline for resumable Blender frame rendering, remote transfer, hash verification, uncompressed masters, compressed delivery files, and live stage metrics.",
+    "developerName": "ZUENS2020",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "brandColor": "#477864",
+    "defaultPrompt": [
+      "Configure a resumable Blender render pipeline for this project.",
+      "Show the current render, transfer, and encoding status.",
+      "Resume this render and produce verified master and delivery videos."
+    ]
+  }
+}

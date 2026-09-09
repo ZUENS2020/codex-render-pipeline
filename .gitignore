@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+work/
+delivery/
+*.blend1
+*.partial
+*.log

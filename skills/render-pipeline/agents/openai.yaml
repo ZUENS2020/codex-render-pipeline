@@ -1,0 +1,4 @@
+interface:
+  display_name: "Render Pipeline"
+  short_description: "Build and operate resumable Blender render delivery pipelines"
+  default_prompt: "Use $render-pipeline to configure and run this Blender animation delivery."
